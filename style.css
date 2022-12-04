@@ -1,0 +1,35 @@
+* {
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 55%;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 
+#login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#login-form span,
+#login-form input,
+#login-form button {
+    margin: 0px 5px 0px 0px;
+}
+
+#dDay {
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.hidden {
+    display: none;
+}

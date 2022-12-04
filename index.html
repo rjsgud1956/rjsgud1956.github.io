@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Happy X-mas</title>
+</head>
+
+<body>
+    <form class="hidden" id="login-form">
+        <span>Send your name to Santa!!</span>
+        <input required maxlength="15" type="text" placeholder="what's your name?">
+        <button>send</button>
+    </form>
+    <div id="greeting" class="hidden"></div>
+    <div>Enter the gift you want</div>
+    <form id="gift-form">
+        <input type="text" placeholder="Enter the gift" required>
+    </form>
+    <ul id="gift-list"></ul>
+    <div id="dDay">
+        <span>santa is coming</span>
+        <span id="clock">00d 00h 00m 00s</span>
+        <span id="city"></span>
+        <span id="weather"></span>
+    </div>
+    <script src="/JS/clock.js"></script>
+    <script src="/JS/greeting.js"></script>
+    <script src="/JS/gift.js"></script>
+    <script src="/JS/weather.js"></script>
+    <script src="/JS/background.js"></script>
+</body>
+
+</html>
